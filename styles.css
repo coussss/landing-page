@@ -6,6 +6,8 @@ body {
     padding: 0;
 }
 
+/* header section */
+
 .header {
     display: flex;
     margin-left: 200px;
@@ -17,6 +19,8 @@ body {
     height: 30 px;
     flex-grow: 0;
 }
+
+/* hero section */
 
 .hero {
     background-color: #1f2937;
@@ -50,12 +54,15 @@ body {
     padding-bottom: 100px;
     color: white;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .left-text {
     display: flex;
     flex-direction: column;
-    margin-right: 50px;
+    padding-bottom: 50px;
+    width: 400px;
 }
 
 h1 {
@@ -80,4 +87,71 @@ button {
     height: 28px;
     color: white;
     font-weight: bold;
+}
+
+/* information section */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.information-text {
+    font-size: 36px;
+    font-weight: bold;
+    align-self: center;
+    margin: 50px;
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    outline: 4px solid #3882f6;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.box1 {
+    width: 150px;
+    margin-left: 24px;
+    margin-right: 24px;
+    text-align: center;
+}
+.box2 {
+    width: 150px;
+    margin-left: 24px;
+    margin-right: 24px;
+    text-align: center;
+}
+.box3 {
+    width: 150px;
+    margin-left: 24px;
+    margin-right: 24px;
+    text-align: center;
+}
+.box4 {
+    width: 150px;
+    margin-left: 24px;
+    margin-right: 24px;
+    text-align: center;
+}
+.box-text {
+    margin-top: 8px;
+    opacity: 60%;
+    margin-bottom: 24px;
+}
+
+div {
+    outline: 2px solid red;
 }
