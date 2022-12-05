@@ -80,7 +80,7 @@ p {
     padding: 0;
 }
 
-button {
+#button1 {
     background-color: #3882f6;
     border-radius: 8px;
     border: none;
@@ -147,6 +147,7 @@ button {
     margin-right: 24px;
     text-align: center;
 }
+
 .box-text {
     margin-top: 8px;
     opacity: 60%;
@@ -158,6 +159,8 @@ button {
 .quote-container {
     margin-top: 100px;
     margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .quote {
@@ -181,6 +184,53 @@ button {
     font-weight: bold;
     font-size: 18px
 }
+
+/* call to action section*/
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-container {
+    display: flex;
+    width: 900px;
+    height: 125px;
+    background-color: #3882f6;
+    color: white;
+    margin: 75px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container {
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+#button2 {
+    color: white;
+    background-color: #3882f6;
+    border: white;
+    outline: 2px solid white;
+    border-radius: 8px;
+    width: 100px;
+    height: 28px;
+    font-weight: bold;
+}
+
+.action-text {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text-container {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
 /*
 div {
     outline: 2px solid red;
