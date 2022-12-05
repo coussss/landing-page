@@ -231,6 +231,20 @@ p {
     margin-left: 50px;
 }
 
+/* footer section */
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    margin: 36px;
+}
+
 /*
 div {
     outline: 2px solid red;
